@@ -20,4 +20,4 @@ jobs:
         username: mu5vg_joathan
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./  
-        server-dir: /sites/deploy.cosourcing.fr
+        server-dir: /sites/deploy.cosourcing.fr/
