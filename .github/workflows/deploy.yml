@@ -19,5 +19,5 @@ jobs:
         server: mu5vg.ftp.infomaniak.com
         username: mu5vg_joathan
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: .
+	local-dir: ./  # Dossier local à déployer, doit se terminer par /
         server-dir: /sites/deploy.cosourcing.fr
